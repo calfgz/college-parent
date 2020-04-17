@@ -1,0 +1,395 @@
+2020-04-03 10:58:30.679 [main] INFO  cn.calfgz.college.EduApplication - The following profiles are active: dev
+2020-04-03 10:58:31.953 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-03 10:58:31.957 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-03 10:58:32.001 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22ms. Found 0 Redis repository interfaces.
+2020-04-03 10:58:32.284 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=b0116d5c-14e4-33c2-89c1-9d7e2b867010
+2020-04-03 10:58:32.431 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [cn.calfgz.college.common.base.config.RedisConfig$$EnhancerBySpringCGLIB$$c2e43aeb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-03 10:58:32.880 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2020-04-03 10:58:32.895 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2020-04-03 10:58:32.895 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-03 10:58:32.896 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-03 10:58:33.023 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-03 10:58:33.024 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2323 ms
+2020-04-03 10:58:33.129 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-03 10:58:33.144 [main] INFO  com.netflix.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@7c281eb8
+2020-04-03 10:58:33.286 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-04-03 10:58:33.413 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-04-03 10:58:34.891 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-04-03 10:58:35.064 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-03 10:58:35.086 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-03 10:58:35.217 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-03 10:58:35.347 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+2020-04-03 10:58:35.632 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-04-03 10:58:35.656 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-04-03 10:58:35.726 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-04-03 10:58:35.884 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getByIdUsingGET_1
+2020-04-03 10:58:35.906 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: removeByIdUsingDELETE_1
+2020-04-03 10:58:35.925 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: handleUsingGET_1
+2020-04-03 10:58:35.928 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: handleUsingGET_2
+2020-04-03 10:58:35.946 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_1
+2020-04-03 10:58:35.951 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateByIdUsingPUT_1
+2020-04-03 10:58:35.963 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: removeByIdUsingDELETE_2
+2020-04-03 10:58:35.967 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_2
+2020-04-03 10:58:35.970 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateCourseInfoByIdUsingPUT_1
+2020-04-03 10:58:36.003 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2020-04-03 10:58:36.038 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2020-04-03 10:58:36.188 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-edu 192.168.19.158:8001 register finished
+2020-04-03 10:58:36.193 [main] INFO  cn.calfgz.college.EduApplication - Started EduApplication in 7.504 seconds (JVM running for 9.199)
+2020-04-03 10:59:31.845 [http-nio-8001-exec-1] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [1585032801; Hm_lpvt_eb8a0170f0ad9db33295cfbe2dc5b699=1585034191; Admin-Token=admin-token; vue_admin_template_token=admin; guli_ucenter=; guli_token=] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-04-03 10:59:31.854 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-03 10:59:31.854 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-03 10:59:31.864 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2020-04-03 11:02:41.256 [SpringContextShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2020-04-03 11:02:41.260 [SpringContextShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2020-04-03 11:02:41.262 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-03 11:02:41.284 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-04-03 11:02:41.287 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-04-03 11:17:03.830 [main] INFO  cn.calfgz.college.UcenterApplication - The following profiles are active: dev
+2020-04-03 11:17:04.776 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-03 11:17:04.778 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-03 11:17:04.804 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14ms. Found 0 Redis repository interfaces.
+2020-04-03 11:17:05.019 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=b217dcc1-9b2d-3f4d-9066-974a779d9e86
+2020-04-03 11:17:05.209 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [cn.calfgz.college.common.base.config.RedisConfig$$EnhancerBySpringCGLIB$$b11d45fc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-03 11:17:05.563 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8150 (http)
+2020-04-03 11:17:05.572 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8150"]
+2020-04-03 11:17:05.573 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-03 11:17:05.573 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-03 11:17:05.670 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-03 11:17:05.671 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1824 ms
+2020-04-03 11:17:05.756 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-03 11:17:05.764 [main] INFO  com.netflix.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@f0020b1
+2020-04-03 11:17:05.890 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-04-03 11:17:05.980 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-04-03 11:17:06.878 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-04-03 11:17:06.961 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-03 11:17:06.980 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-03 11:17:07.080 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-03 11:17:07.186 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+2020-04-03 11:17:07.411 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-04-03 11:17:07.424 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-04-03 11:17:07.457 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-04-03 11:17:07.592 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: handleUsingGET_1
+2020-04-03 11:17:07.595 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: handleUsingGET_2
+2020-04-03 11:17:07.633 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8150"]
+2020-04-03 11:17:07.663 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8150 (http) with context path ''
+2020-04-03 11:17:07.781 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-ucenter 192.168.19.158:8150 register finished
+2020-04-03 11:17:07.786 [main] INFO  cn.calfgz.college.UcenterApplication - Started UcenterApplication in 5.072 seconds (JVM running for 5.927)
+2020-04-03 11:17:26.221 [http-nio-8150-exec-1] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [1585032801; Hm_lpvt_eb8a0170f0ad9db33295cfbe2dc5b699=1585034191; Admin-Token=admin-token; vue_admin_template_token=admin; guli_ucenter=; guli_token=] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-04-03 11:17:26.228 [http-nio-8150-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-03 11:17:26.228 [http-nio-8150-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-03 11:17:26.237 [http-nio-8150-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2020-04-03 11:32:12.731 [SpringContextShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2020-04-03 11:32:12.736 [SpringContextShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2020-04-03 11:32:12.737 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-03 11:32:12.753 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-04-03 11:32:12.754 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-04-03 11:32:21.914 [main] INFO  cn.calfgz.college.UcenterApplication - The following profiles are active: dev
+2020-04-03 11:32:22.862 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-03 11:32:22.864 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-03 11:32:22.889 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14ms. Found 0 Redis repository interfaces.
+2020-04-03 11:32:23.095 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=b217dcc1-9b2d-3f4d-9066-974a779d9e86
+2020-04-03 11:32:23.220 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [cn.calfgz.college.common.base.config.RedisConfig$$EnhancerBySpringCGLIB$$2e53cf3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-03 11:32:23.583 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8150 (http)
+2020-04-03 11:32:23.592 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8150"]
+2020-04-03 11:32:23.593 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-03 11:32:23.593 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-03 11:32:23.689 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-03 11:32:23.689 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1758 ms
+2020-04-03 11:32:23.772 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-03 11:32:23.781 [main] INFO  com.netflix.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@17dad32f
+2020-04-03 11:32:23.903 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-04-03 11:32:23.992 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-04-03 11:32:24.883 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-04-03 11:32:24.967 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-03 11:32:24.985 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-03 11:32:25.084 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-03 11:32:25.187 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+2020-04-03 11:32:25.411 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-04-03 11:32:25.424 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-04-03 11:32:25.457 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-04-03 11:32:25.591 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: handleUsingGET_1
+2020-04-03 11:32:25.594 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: handleUsingGET_2
+2020-04-03 11:32:25.635 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8150"]
+2020-04-03 11:32:25.669 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8150 (http) with context path ''
+2020-04-03 11:32:25.781 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-ucenter 192.168.19.158:8150 register finished
+2020-04-03 11:32:25.786 [main] INFO  cn.calfgz.college.UcenterApplication - Started UcenterApplication in 4.959 seconds (JVM running for 5.835)
+2020-04-03 11:32:52.909 [http-nio-8150-exec-1] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [1585032801; Hm_lpvt_eb8a0170f0ad9db33295cfbe2dc5b699=1585034191; Admin-Token=admin-token; vue_admin_template_token=admin; guli_ucenter=; guli_token=; JSESSIONID=B74EE60C7EA6B1F2D971F936FCB60774] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-04-03 11:32:52.918 [http-nio-8150-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-03 11:32:52.918 [http-nio-8150-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-03 11:32:52.928 [http-nio-8150-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2020-04-03 11:35:49.649 [SpringContextShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2020-04-03 11:35:49.654 [SpringContextShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2020-04-03 11:35:49.655 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-03 11:35:49.673 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-04-03 11:35:49.675 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-04-03 11:35:55.718 [main] INFO  cn.calfgz.college.UcenterApplication - The following profiles are active: dev
+2020-04-03 11:35:56.622 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-03 11:35:56.625 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-03 11:35:56.654 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16ms. Found 0 Redis repository interfaces.
+2020-04-03 11:35:56.913 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=b217dcc1-9b2d-3f4d-9066-974a779d9e86
+2020-04-03 11:35:57.048 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [cn.calfgz.college.common.base.config.RedisConfig$$EnhancerBySpringCGLIB$$ac50ff64] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-03 11:35:57.343 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8150 (http)
+2020-04-03 11:35:57.408 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8150"]
+2020-04-03 11:35:57.409 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-03 11:35:57.409 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-03 11:35:57.510 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-03 11:35:57.511 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1774 ms
+2020-04-03 11:35:57.599 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-03 11:35:57.608 [main] INFO  com.netflix.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@53ce2392
+2020-04-03 11:35:57.734 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-04-03 11:35:57.824 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-04-03 11:35:58.739 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-04-03 11:35:58.826 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-03 11:35:58.845 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-03 11:35:58.970 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-03 11:35:59.076 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+2020-04-03 11:35:59.309 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-04-03 11:35:59.322 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-04-03 11:35:59.355 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-04-03 11:35:59.491 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: handleUsingGET_1
+2020-04-03 11:35:59.494 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: handleUsingGET_2
+2020-04-03 11:35:59.536 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8150"]
+2020-04-03 11:35:59.570 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8150 (http) with context path ''
+2020-04-03 11:35:59.686 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-ucenter 192.168.19.158:8150 register finished
+2020-04-03 11:35:59.691 [main] INFO  cn.calfgz.college.UcenterApplication - Started UcenterApplication in 5.139 seconds (JVM running for 6.032)
+2020-04-03 11:37:02.624 [http-nio-8150-exec-1] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [1585032801; Hm_lpvt_eb8a0170f0ad9db33295cfbe2dc5b699=1585034191; Admin-Token=admin-token; vue_admin_template_token=admin; guli_ucenter=; guli_token=; JSESSIONID=B74EE60C7EA6B1F2D971F936FCB60774] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-04-03 11:37:02.631 [http-nio-8150-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-03 11:37:02.631 [http-nio-8150-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-03 11:37:02.639 [http-nio-8150-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2020-04-03 11:40:24.074 [SpringContextShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2020-04-03 11:40:24.078 [SpringContextShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2020-04-03 11:40:24.079 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-03 11:40:24.095 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-04-03 11:40:24.097 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-04-03 11:43:55.666 [main] INFO  cn.calfgz.college.UcenterApplication - The following profiles are active: dev
+2020-04-03 11:43:56.621 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-03 11:43:56.623 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-03 11:43:56.649 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14ms. Found 0 Redis repository interfaces.
+2020-04-03 11:43:56.868 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=b217dcc1-9b2d-3f4d-9066-974a779d9e86
+2020-04-03 11:43:56.991 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [cn.calfgz.college.common.base.config.RedisConfig$$EnhancerBySpringCGLIB$$22da0123] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-03 11:43:57.364 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8150 (http)
+2020-04-03 11:43:57.373 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8150"]
+2020-04-03 11:43:57.373 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-03 11:43:57.374 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-03 11:43:57.469 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-03 11:43:57.469 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1785 ms
+2020-04-03 11:43:57.554 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-03 11:43:57.563 [main] INFO  com.netflix.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@2e463f4
+2020-04-03 11:43:57.681 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-04-03 11:43:57.773 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-04-03 11:43:58.667 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-04-03 11:43:58.754 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-03 11:43:58.774 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-03 11:43:58.880 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-03 11:43:58.982 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+2020-04-03 11:43:59.215 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-04-03 11:43:59.229 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-04-03 11:43:59.261 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-04-03 11:43:59.397 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: handleUsingGET_1
+2020-04-03 11:43:59.400 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: handleUsingGET_2
+2020-04-03 11:43:59.445 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8150"]
+2020-04-03 11:43:59.478 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8150 (http) with context path ''
+2020-04-03 11:43:59.585 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-ucenter 192.168.19.158:8150 register finished
+2020-04-03 11:43:59.591 [main] INFO  cn.calfgz.college.UcenterApplication - Started UcenterApplication in 4.964 seconds (JVM running for 5.724)
+2020-04-03 11:48:01.982 [http-nio-8150-exec-1] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [1585032801; Hm_lpvt_eb8a0170f0ad9db33295cfbe2dc5b699=1585034191; Admin-Token=admin-token; vue_admin_template_token=admin; guli_ucenter=; guli_token=; JSESSIONID=D82F94B0F416DDEE479C79BD99CCDD3F] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-04-03 11:48:01.991 [http-nio-8150-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-03 11:48:01.992 [http-nio-8150-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-03 11:48:02.002 [http-nio-8150-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2020-04-03 12:15:28.237 [main] INFO  cn.calfgz.college.EduApplication - The following profiles are active: dev
+2020-04-03 12:15:29.268 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-03 12:15:29.269 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-03 12:15:29.306 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23ms. Found 0 Redis repository interfaces.
+2020-04-03 12:15:29.531 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=d2dcd15b-ee67-3da4-a1d4-c3e5e61d4aef
+2020-04-03 12:15:29.668 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [cn.calfgz.college.common.base.config.RedisConfig$$EnhancerBySpringCGLIB$$95805e78] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-03 12:15:30.071 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2020-04-03 12:15:30.081 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2020-04-03 12:15:30.082 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-03 12:15:30.082 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-03 12:15:30.185 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-03 12:15:30.185 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1931 ms
+2020-04-03 12:15:30.278 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-03 12:15:30.286 [main] INFO  com.netflix.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@388623ad
+2020-04-03 12:15:30.416 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-04-03 12:15:30.514 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-04-03 12:15:31.782 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-04-03 12:15:31.921 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-03 12:15:31.942 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-03 12:15:32.069 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-03 12:15:32.188 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+2020-04-03 12:15:32.435 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-04-03 12:15:32.448 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-04-03 12:15:32.494 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-04-03 12:15:32.633 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getByIdUsingGET_1
+2020-04-03 12:15:32.658 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: removeByIdUsingDELETE_1
+2020-04-03 12:15:32.678 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: handleUsingGET_1
+2020-04-03 12:15:32.681 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: handleUsingGET_2
+2020-04-03 12:15:32.704 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_1
+2020-04-03 12:15:32.709 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateByIdUsingPUT_1
+2020-04-03 12:15:32.721 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: removeByIdUsingDELETE_2
+2020-04-03 12:15:32.727 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_2
+2020-04-03 12:15:32.729 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateCourseInfoByIdUsingPUT_1
+2020-04-03 12:15:32.760 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2020-04-03 12:15:32.794 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2020-04-03 12:15:32.907 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-edu 192.168.19.158:8001 register finished
+2020-04-03 12:15:32.913 [main] INFO  cn.calfgz.college.EduApplication - Started EduApplication in 5.72 seconds (JVM running for 6.598)
+2020-04-03 12:16:24.828 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-03 12:16:24.829 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-03 12:16:24.851 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 22 ms
+2020-04-03 14:15:44.351 [SpringContextShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2020-04-03 14:15:44.356 [SpringContextShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2020-04-03 14:15:44.357 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-03 14:15:44.375 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-04-03 14:15:44.377 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-04-03 14:15:54.802 [main] INFO  cn.calfgz.college.EduApplication - The following profiles are active: dev
+2020-04-03 14:15:55.811 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-03 14:15:55.813 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-03 14:15:55.843 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18ms. Found 0 Redis repository interfaces.
+2020-04-03 14:15:56.064 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=d2dcd15b-ee67-3da4-a1d4-c3e5e61d4aef
+2020-04-03 14:15:56.195 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [cn.calfgz.college.common.base.config.RedisConfig$$EnhancerBySpringCGLIB$$d073a57e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-03 14:15:56.580 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2020-04-03 14:15:56.589 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2020-04-03 14:15:56.590 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-03 14:15:56.590 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-03 14:15:56.691 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-03 14:15:56.691 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1870 ms
+2020-04-03 14:15:56.779 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-03 14:15:56.788 [main] INFO  com.netflix.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@5792c08c
+2020-04-03 14:15:56.909 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-04-03 14:15:57.003 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-04-03 14:15:58.230 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-04-03 14:15:58.362 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-03 14:15:58.383 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-03 14:15:58.506 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-03 14:15:58.620 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+2020-04-03 14:15:58.890 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-04-03 14:15:58.905 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-04-03 14:15:58.957 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-04-03 14:15:59.091 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getByIdUsingGET_1
+2020-04-03 14:15:59.115 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: removeByIdUsingDELETE_1
+2020-04-03 14:15:59.136 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: handleUsingGET_1
+2020-04-03 14:15:59.139 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: handleUsingGET_2
+2020-04-03 14:15:59.152 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getByIdUsingGET_2
+2020-04-03 14:15:59.171 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_1
+2020-04-03 14:15:59.177 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateByIdUsingPUT_1
+2020-04-03 14:15:59.183 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: removeByIdUsingDELETE_2
+2020-04-03 14:15:59.187 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_2
+2020-04-03 14:15:59.189 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateCourseInfoByIdUsingPUT_1
+2020-04-03 14:15:59.219 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2020-04-03 14:15:59.251 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2020-04-03 14:15:59.359 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-edu 192.168.19.158:8001 register finished
+2020-04-03 14:15:59.364 [main] INFO  cn.calfgz.college.EduApplication - Started EduApplication in 5.641 seconds (JVM running for 6.416)
+2020-04-03 14:16:06.684 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-03 14:16:06.684 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-03 14:16:06.693 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2020-04-03 14:51:31.158 [SpringContextShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2020-04-03 14:51:31.162 [SpringContextShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2020-04-03 14:51:31.163 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-03 14:51:31.181 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-04-03 14:51:31.182 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-04-03 14:51:39.483 [main] INFO  cn.calfgz.college.EduApplication - The following profiles are active: dev
+2020-04-03 14:51:40.497 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-03 14:51:40.499 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-03 14:51:40.529 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 19ms. Found 0 Redis repository interfaces.
+2020-04-03 14:51:40.756 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=9bcfb6b1-0a13-3a74-adf2-a495f8f3e8b7
+2020-04-03 14:51:40.889 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [cn.calfgz.college.common.base.config.RedisConfig$$EnhancerBySpringCGLIB$$9427648a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-03 14:51:41.274 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2020-04-03 14:51:41.283 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2020-04-03 14:51:41.284 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-03 14:51:41.284 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-03 14:51:41.384 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-03 14:51:41.384 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1877 ms
+2020-04-03 14:51:41.470 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-03 14:51:41.479 [main] INFO  com.netflix.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@1d02af26
+2020-04-03 14:51:41.603 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-04-03 14:51:41.694 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-04-03 14:51:42.906 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-04-03 14:51:43.047 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-03 14:51:43.068 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-03 14:51:43.186 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-03 14:51:43.305 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+2020-04-03 14:51:43.523 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-04-03 14:51:43.537 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-04-03 14:51:43.584 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-04-03 14:51:43.727 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getByIdUsingGET_1
+2020-04-03 14:51:43.750 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: removeByIdUsingDELETE_1
+2020-04-03 14:51:43.767 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: handleUsingGET_1
+2020-04-03 14:51:43.769 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: handleUsingGET_2
+2020-04-03 14:51:43.772 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: nestedListUsingGET_1
+2020-04-03 14:51:43.775 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getByIdUsingGET_2
+2020-04-03 14:51:43.792 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_1
+2020-04-03 14:51:43.797 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateByIdUsingPUT_1
+2020-04-03 14:51:43.802 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: removeByIdUsingDELETE_2
+2020-04-03 14:51:43.808 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_2
+2020-04-03 14:51:43.811 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateCourseInfoByIdUsingPUT_1
+2020-04-03 14:51:43.840 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2020-04-03 14:51:43.872 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2020-04-03 14:51:43.975 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-edu 192.168.19.158:8001 register finished
+2020-04-03 14:51:43.981 [main] INFO  cn.calfgz.college.EduApplication - Started EduApplication in 5.583 seconds (JVM running for 6.399)
+2020-04-03 14:52:05.160 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-03 14:52:05.161 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-03 14:52:05.169 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2020-04-03 15:33:02.842 [SpringContextShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2020-04-03 15:33:02.847 [SpringContextShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2020-04-03 15:33:02.848 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-03 15:33:02.871 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-04-03 15:33:02.873 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-04-03 15:33:12.195 [main] INFO  cn.calfgz.college.EduApplication - The following profiles are active: dev
+2020-04-03 15:33:13.286 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-03 15:33:13.288 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-04-03 15:33:13.322 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 21ms. Found 0 Redis repository interfaces.
+2020-04-03 15:33:13.573 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=9bcfb6b1-0a13-3a74-adf2-a495f8f3e8b7
+2020-04-03 15:33:13.716 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [cn.calfgz.college.common.base.config.RedisConfig$$EnhancerBySpringCGLIB$$a17ea2ba] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-03 15:33:14.150 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2020-04-03 15:33:14.161 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2020-04-03 15:33:14.161 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-03 15:33:14.162 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-03 15:33:14.268 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-03 15:33:14.268 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2055 ms
+2020-04-03 15:33:14.362 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-03 15:33:14.373 [main] INFO  com.netflix.config.DynamicPropertyFactory - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@4c5a2baf
+2020-04-03 15:33:14.509 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-04-03 15:33:14.611 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-04-03 15:33:15.987 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-04-03 15:33:16.125 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-03 15:33:16.145 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-03 15:33:16.267 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-03 15:33:16.378 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+2020-04-03 15:33:16.638 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-04-03 15:33:16.651 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-04-03 15:33:16.700 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-04-03 15:33:16.850 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getByIdUsingGET_1
+2020-04-03 15:33:16.865 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getByIdUsingGET_2
+2020-04-03 15:33:16.887 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: removeByIdUsingDELETE_1
+2020-04-03 15:33:16.905 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: handleUsingGET_1
+2020-04-03 15:33:16.907 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: handleUsingGET_2
+2020-04-03 15:33:16.911 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: nestedListUsingGET_1
+2020-04-03 15:33:16.914 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getByIdUsingGET_3
+2020-04-03 15:33:16.933 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_1
+2020-04-03 15:33:16.938 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateByIdUsingPUT_1
+2020-04-03 15:33:16.944 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: removeByIdUsingDELETE_2
+2020-04-03 15:33:16.951 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_2
+2020-04-03 15:33:16.954 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateCourseInfoByIdUsingPUT_1
+2020-04-03 15:33:16.984 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2020-04-03 15:33:17.018 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2020-04-03 15:33:17.129 [main] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-edu 192.168.19.158:8001 register finished
+2020-04-03 15:33:17.134 [main] INFO  cn.calfgz.college.EduApplication - Started EduApplication in 6.045 seconds (JVM running for 6.904)
+2020-04-03 15:33:21.008 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-03 15:33:21.008 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-03 15:33:21.014 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2020-04-03 15:58:29.677 [http-nio-8001-exec-6] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [1585032801; Hm_lpvt_eb8a0170f0ad9db33295cfbe2dc5b699=1585034191; Admin-Token=admin-token; vue_admin_template_token=admin; JSESSIONID=572FC78356A78D74B6E6BFA490E70DE8; guli_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjb2xsZWdlLXVzZXIiLCJpYXQiOjE1ODU4ODU2OTIsImV4cCI6MTU4NTk3MjA5MiwiaWQiOiIxMjQ1OTE4MjQ4NTgzNTY5NDEwIiwibmlja25hbWUiOiJDYWxmIn0.TUJx9laHhZV8l7O1Wvg35KBhbfYCUPQx0uDx2MkeS3g; guli_ucenter={%22id%22:%221245918248583569410%22%2C%22openid%22:%22o3_SC5zOM2Irte2Uv6BF2PlHW5i4%22%2C%22mobile%22:%22%22%2C%22nickname%22:%22Calf%22%2C%22sex%22:null%2C%22age%22:null%2C%22avatar%22:%22http://thirdwx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTIolesbbPdZ44nj6xH5sWbJs3KHff3tlHPkGTkiagVbUicJCZvPP8cdkleZKtzjvWZqTsZYkSYuOHHQ/132%22%2C%22sign%22:null}] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-04-03 17:15:10.999 [SpringContextShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2020-04-03 17:15:11.003 [SpringContextShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2020-04-03 17:15:11.004 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-03 17:15:11.027 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-04-03 17:15:11.028 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-04-03 17:15:11.060 [SpringContextShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2020-04-03 17:15:11.064 [SpringContextShutdownHook] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2020-04-03 17:15:11.066 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-03 17:15:11.092 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-04-03 17:15:11.094 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed

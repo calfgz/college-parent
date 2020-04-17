@@ -1,0 +1,36 @@
+2020-04-03 10:58:31.744 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2020-04-03 10:58:32.070 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-04-03 10:58:33.128 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-03 10:58:35.085 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-03 11:17:04.618 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2020-04-03 11:17:04.866 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-04-03 11:17:05.756 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-03 11:17:06.979 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-03 11:32:22.703 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2020-04-03 11:32:22.944 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-04-03 11:32:23.772 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-03 11:32:24.984 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-03 11:35:56.459 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2020-04-03 11:35:56.722 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-04-03 11:35:57.599 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-03 11:35:58.845 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-03 11:43:56.462 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2020-04-03 11:43:56.709 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-04-03 11:43:57.553 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-03 11:43:58.773 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-03 12:15:29.098 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2020-04-03 12:15:29.361 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-04-03 12:15:30.277 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-03 12:15:31.941 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-03 14:15:55.648 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2020-04-03 14:15:55.898 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-04-03 14:15:56.778 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-03 14:15:58.383 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-03 14:51:40.337 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2020-04-03 14:51:40.590 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-04-03 14:51:41.470 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-03 14:51:43.067 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-03 15:33:13.104 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2020-04-03 15:33:13.385 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-04-03 15:33:14.362 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-03 15:33:16.145 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.

@@ -1,0 +1,161 @@
+2020-04-02 12:06:19.339 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2020-04-02 12:06:19.580 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-04-02 12:06:19.652 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[cn.calfgz.college]' package. Please check your configuration.
+2020-04-02 12:06:20.393 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-02 12:06:20.886 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'bannerApiController': Unsatisfied dependency expressed through field 'bannerService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'bannerServiceImpl': Unsatisfied dependency expressed through field 'baseMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'cn.calfgz.college.cms.mapper.BannerMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2020-04-02 12:06:20.893 [main] WARN  org.apache.catalina.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [logback-5] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1088)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+2020-04-02 12:06:20.893 [main] WARN  org.apache.catalina.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [com.alibaba.nacos.naming.client.listener] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+ com.alibaba.nacos.client.naming.core.EventDispatcher$Notifier.run(EventDispatcher.java:114)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+2020-04-02 12:06:20.894 [main] WARN  org.apache.catalina.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [com.alibaba.nacos.naming.failover] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+2020-04-02 12:06:20.894 [main] WARN  org.apache.catalina.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [com.alibaba.nacos.naming.push.receiver] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.net.PlainDatagramSocketImpl.receive0(Native Method)
+ java.net.AbstractPlainDatagramSocketImpl.receive(AbstractPlainDatagramSocketImpl.java:143)
+ java.net.DatagramSocket.receive(DatagramSocket.java:812)
+ com.alibaba.nacos.client.naming.core.PushReceiver.run(PushReceiver.java:73)
+ java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+ java.util.concurrent.FutureTask.run(FutureTask.java:266)
+ java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+ java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+2020-04-02 12:07:42.354 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2020-04-02 12:07:42.548 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-04-02 12:07:43.343 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-02 12:07:44.469 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-02 12:07:45.367 [main] WARN  org.apache.catalina.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [spring.cloud.inetutils] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+2020-04-02 12:07:45.368 [main] WARN  org.apache.catalina.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [logback-3] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1088)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+2020-04-02 12:07:45.369 [main] WARN  org.apache.catalina.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [com.alibaba.nacos.naming.client.listener] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+ com.alibaba.nacos.client.naming.core.EventDispatcher$Notifier.run(EventDispatcher.java:114)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+2020-04-02 12:07:45.369 [main] WARN  org.apache.catalina.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [com.alibaba.nacos.naming.failover] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+2020-04-02 12:07:45.370 [main] WARN  org.apache.catalina.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [com.alibaba.nacos.naming.push.receiver] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.net.PlainDatagramSocketImpl.receive0(Native Method)
+ java.net.AbstractPlainDatagramSocketImpl.receive(AbstractPlainDatagramSocketImpl.java:143)
+ java.net.DatagramSocket.receive(DatagramSocket.java:812)
+ com.alibaba.nacos.client.naming.core.PushReceiver.run(PushReceiver.java:73)
+ java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+ java.util.concurrent.FutureTask.run(FutureTask.java:266)
+ java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+ java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+2020-04-02 12:07:45.371 [main] WARN  org.apache.catalina.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [Druid-ConnectionPool-Create-1180383462] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2728)
+2020-04-02 12:07:45.371 [main] WARN  org.apache.catalina.loader.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [Druid-ConnectionPool-Destroy-1180383462] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Thread.sleep(Native Method)
+ com.alibaba.druid.pool.DruidDataSource$DestroyConnectionThread.run(DruidDataSource.java:2824)
+2020-04-02 12:07:45.383 [main] WARN  o.s.beans.factory.support.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'tomcatMetricsBinder': java.lang.NullPointerException
+2020-04-02 12:09:25.712 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2020-04-02 12:09:25.879 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-04-02 12:09:26.507 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-02 12:09:27.441 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-02 12:21:53.379 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2020-04-02 12:21:53.559 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-04-02 12:21:54.290 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-02 12:21:55.652 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-02 12:35:08.294 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2020-04-02 12:35:08.473 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-04-02 12:35:09.293 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-02 12:35:10.780 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-02 14:21:00.090 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2020-04-02 14:21:00.378 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-04-02 14:21:01.379 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-02 14:21:03.810 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-02 14:21:20.870 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2020-04-02 14:21:21.128 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-04-02 14:21:21.965 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-02 14:21:23.176 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-02 14:23:06.130 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2020-04-02 14:23:06.402 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-04-02 14:23:07.283 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-02 14:23:08.538 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-02 16:03:21.474 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2020-04-02 16:03:21.770 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-04-02 16:03:22.652 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-02 16:03:24.078 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-02 16:04:32.804 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2020-04-02 16:04:33.043 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-04-02 16:04:33.862 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-02 16:04:34.642 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-02 17:35:08.781 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2020-04-02 17:35:09.181 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-04-02 17:35:10.560 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-02 17:35:13.670 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2020-04-02 17:35:13.993 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-02 17:35:14.062 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-04-02 17:35:15.491 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-02 17:35:17.655 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-02 17:35:17.943 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2020-04-02 17:35:18.200 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-04-02 17:35:19.072 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-02 17:35:19.956 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-02 17:37:39.892 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2020-04-02 17:37:40.188 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-04-02 17:37:41.111 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-02 17:37:42.421 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-02 17:41:39.382 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2020-04-02 17:41:39.641 [main] WARN  o.springframework.boot.actuate.endpoint.EndpointId - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-04-02 17:41:40.496 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2020-04-02 17:41:41.771 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.

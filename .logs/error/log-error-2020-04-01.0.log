@@ -1,0 +1,2 @@
+2020-04-01 12:32:41.907 [http-nio-8003-exec-9] ERROR c.c.c.common.base.handler.GlobalExceptionHandler - GlobalException, uri:/vod/video/upload, method:POST, params:{}, error:Handler dispatch failed; nested exception is java.lang.NoClassDefFoundError: com/aliyun/oss/internal/OSSUdfOperation
+2020-04-01 13:51:30.676 [http-nio-8003-exec-1] ERROR c.c.c.common.base.handler.GlobalExceptionHandler - GlobalException, uri:/vod/video/upload, method:POST, params:{}, error:Handler dispatch failed; nested exception is java.lang.NoClassDefFoundError: com/aliyun/oss/internal/OSSUdfOperation

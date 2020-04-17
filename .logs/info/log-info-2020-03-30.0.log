@@ -1,0 +1,365 @@
+2020-03-30 09:02:49.415 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-30 13:56:31.145 [main] INFO  cn.calfgz.college.EduApplication - Starting EduApplication on calfgz.local with PID 4030 (/Users/apple/github/college-parent/service/service-edu/target/classes started by apple in /Users/apple/github/college-parent)
+2020-03-30 13:56:31.166 [main] INFO  cn.calfgz.college.EduApplication - The following profiles are active: dev
+2020-03-30 13:56:32.825 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2020-03-30 13:56:32.839 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2020-03-30 13:56:32.840 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-30 13:56:32.840 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-30 13:56:32.949 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-30 13:56:32.949 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1686 ms
+2020-03-30 13:56:33.101 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-03-30 13:56:33.237 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-03-30 13:56:34.059 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-03-30 13:56:34.125 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-03-30 13:56:34.234 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-30 13:56:34.438 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-03-30 13:56:34.455 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-03-30 13:56:34.497 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-03-30 13:56:34.623 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: handleUsingGET_1
+2020-03-30 13:56:34.626 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: handleUsingGET_2
+2020-03-30 13:56:34.696 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2020-03-30 13:56:34.727 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2020-03-30 13:56:34.731 [main] INFO  cn.calfgz.college.EduApplication - Started EduApplication in 4.239 seconds (JVM running for 4.976)
+2020-03-30 13:56:57.608 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-30 13:56:57.609 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-30 13:56:57.620 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2020-03-30 16:44:51.608 [main] INFO  cn.calfgz.college.OssApplication - Starting OssApplication on calfgz.local with PID 6117 (/Users/apple/github/college-parent/service/service-oss/target/classes started by apple in /Users/apple/github/college-parent)
+2020-03-30 16:44:51.611 [main] INFO  cn.calfgz.college.OssApplication - The following profiles are active: dev
+2020-03-30 16:44:52.882 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8002 (http)
+2020-03-30 16:44:52.889 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8002"]
+2020-03-30 16:44:52.890 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-30 16:44:52.890 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-30 16:44:52.960 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-30 16:44:52.961 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1274 ms
+2020-03-30 16:44:53.341 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-03-30 16:44:53.407 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-03-30 16:44:53.530 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-30 16:44:53.665 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-03-30 16:44:53.677 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-03-30 16:44:53.705 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-03-30 16:44:53.799 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: handleUsingGET_1
+2020-03-30 16:44:53.802 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: handleUsingGET_2
+2020-03-30 16:44:53.828 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8002"]
+2020-03-30 16:44:53.856 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8002 (http) with context path ''
+2020-03-30 16:44:53.859 [main] INFO  cn.calfgz.college.OssApplication - Started OssApplication in 2.69 seconds (JVM running for 3.455)
+2020-03-30 16:45:05.935 [http-nio-8002-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-30 16:45:05.936 [http-nio-8002-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-30 16:45:05.941 [http-nio-8002-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-03-30 16:58:26.581 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-30 17:17:30.978 [http-nio-8001-exec-4] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [1585032801; Hm_lpvt_eb8a0170f0ad9db33295cfbe2dc5b699=1585034191; Admin-Token=admin-token; vue_admin_template_token=admin] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-03-30 17:19:11.583 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-30 17:19:11.586 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-03-30 17:19:11.593 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-03-30 17:19:17.602 [main] INFO  cn.calfgz.college.EduApplication - Starting EduApplication on calfgz.local with PID 6354 (/Users/apple/github/college-parent/service/service-edu/target/classes started by apple in /Users/apple/github/college-parent)
+2020-03-30 17:19:17.606 [main] INFO  cn.calfgz.college.EduApplication - The following profiles are active: dev
+2020-03-30 17:19:19.142 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2020-03-30 17:19:19.156 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2020-03-30 17:19:19.157 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-30 17:19:19.158 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-30 17:19:19.279 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-30 17:19:19.280 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1629 ms
+2020-03-30 17:19:19.525 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-03-30 17:19:19.636 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-03-30 17:19:20.539 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-03-30 17:19:20.594 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-03-30 17:19:20.679 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-30 17:19:20.841 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-03-30 17:19:20.853 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-03-30 17:19:20.897 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-03-30 17:19:21.020 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: handleUsingGET_1
+2020-03-30 17:19:21.024 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: handleUsingGET_2
+2020-03-30 17:19:21.083 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2020-03-30 17:19:21.113 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2020-03-30 17:19:21.116 [main] INFO  cn.calfgz.college.EduApplication - Started EduApplication in 4.106 seconds (JVM running for 4.856)
+2020-03-30 17:19:35.030 [http-nio-8001-exec-1] INFO  org.apache.tomcat.util.http.parser.Cookie - A cookie header was received [1585032801; Hm_lpvt_eb8a0170f0ad9db33295cfbe2dc5b699=1585034191; Admin-Token=admin-token; vue_admin_template_token=admin] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-03-30 17:19:35.037 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-30 17:19:35.037 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-30 17:19:35.043 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2020-03-30 17:22:58.981 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-30 17:22:58.984 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-03-30 17:22:58.987 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-03-30 17:23:04.321 [main] INFO  cn.calfgz.college.EduApplication - Starting EduApplication on calfgz.local with PID 6369 (/Users/apple/github/college-parent/service/service-edu/target/classes started by apple in /Users/apple/github/college-parent)
+2020-03-30 17:23:04.324 [main] INFO  cn.calfgz.college.EduApplication - The following profiles are active: dev
+2020-03-30 17:23:05.645 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2020-03-30 17:23:05.653 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2020-03-30 17:23:05.654 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-30 17:23:05.654 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-30 17:23:05.728 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-30 17:23:05.729 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1356 ms
+2020-03-30 17:23:05.850 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-03-30 17:23:05.958 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-03-30 17:23:06.743 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-03-30 17:23:06.795 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-03-30 17:23:06.874 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-30 17:23:07.030 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-03-30 17:23:07.041 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-03-30 17:23:07.078 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-03-30 17:23:07.189 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: handleUsingGET_1
+2020-03-30 17:23:07.192 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: handleUsingGET_2
+2020-03-30 17:23:07.248 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2020-03-30 17:23:07.278 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2020-03-30 17:23:07.281 [main] INFO  cn.calfgz.college.EduApplication - Started EduApplication in 3.5 seconds (JVM running for 4.184)
+2020-03-30 17:23:40.824 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-30 17:23:40.825 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-30 17:23:40.832 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2020-03-30 17:24:37.989 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-30 17:24:37.992 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-03-30 17:24:37.996 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-03-30 17:56:32.021 [main] INFO  cn.calfgz.college.EduApplication - Starting EduApplication on calfgz.local with PID 6482 (/Users/apple/github/college-parent/service/service-edu/target/classes started by apple in /Users/apple/github/college-parent)
+2020-03-30 17:56:32.024 [main] INFO  cn.calfgz.college.EduApplication - The following profiles are active: dev
+2020-03-30 17:56:33.648 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2020-03-30 17:56:33.660 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2020-03-30 17:56:33.660 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-30 17:56:33.661 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-30 17:56:33.760 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-30 17:56:33.761 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1652 ms
+2020-03-30 17:56:33.922 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-03-30 17:56:34.062 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-03-30 17:56:34.990 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-03-30 17:56:35.050 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-03-30 17:56:35.147 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-30 17:56:35.327 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-03-30 17:56:35.347 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-03-30 17:56:35.388 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-03-30 17:56:35.540 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: handleUsingGET_1
+2020-03-30 17:56:35.543 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: handleUsingGET_2
+2020-03-30 17:56:35.601 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2020-03-30 17:56:35.633 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2020-03-30 17:56:35.636 [main] INFO  cn.calfgz.college.EduApplication - Started EduApplication in 4.266 seconds (JVM running for 5.071)
+2020-03-30 17:56:52.031 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-30 17:56:52.032 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-30 17:56:52.037 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-03-30 17:59:41.583 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-30 17:59:41.587 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-03-30 17:59:41.591 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-03-30 18:18:57.635 [main] INFO  cn.calfgz.college.EduApplication - Starting EduApplication on calfgz.local with PID 6511 (/Users/apple/github/college-parent/service/service-edu/target/classes started by apple in /Users/apple/github/college-parent)
+2020-03-30 18:18:57.638 [main] INFO  cn.calfgz.college.EduApplication - The following profiles are active: dev
+2020-03-30 18:18:59.150 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2020-03-30 18:18:59.165 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2020-03-30 18:18:59.166 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-30 18:18:59.166 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-30 18:18:59.267 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-30 18:18:59.267 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1552 ms
+2020-03-30 18:18:59.415 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-03-30 18:18:59.547 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-03-30 18:19:00.437 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-03-30 18:19:00.497 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-03-30 18:19:00.591 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-30 18:19:00.759 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-03-30 18:19:00.774 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-03-30 18:19:00.823 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-03-30 18:19:00.962 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getByIdUsingGET_1
+2020-03-30 18:19:00.995 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: handleUsingGET_1
+2020-03-30 18:19:00.998 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: handleUsingGET_2
+2020-03-30 18:19:01.030 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_1
+2020-03-30 18:19:01.034 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateByIdUsingPUT_1
+2020-03-30 18:19:01.069 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2020-03-30 18:19:01.108 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2020-03-30 18:19:01.112 [main] INFO  cn.calfgz.college.EduApplication - Started EduApplication in 4.111 seconds (JVM running for 4.921)
+2020-03-30 18:19:11.570 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-30 18:19:11.571 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-30 18:19:11.578 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2020-03-30 18:22:56.632 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-30 18:22:56.635 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-03-30 18:22:56.638 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-03-30 21:26:14.075 [main] INFO  cn.calfgz.college.EduApplication - Starting EduApplication on calfgz.local with PID 6792 (/Users/apple/github/college-parent/service/service-edu/target/classes started by apple in /Users/apple/github/college-parent)
+2020-03-30 21:26:14.079 [main] INFO  cn.calfgz.college.EduApplication - The following profiles are active: dev
+2020-03-30 21:26:15.633 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2020-03-30 21:26:15.646 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2020-03-30 21:26:15.647 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-30 21:26:15.648 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-30 21:26:15.751 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-30 21:26:15.752 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1583 ms
+2020-03-30 21:26:15.913 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-03-30 21:26:16.032 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-03-30 21:26:16.993 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-03-30 21:26:17.057 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-03-30 21:26:17.148 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-30 21:26:17.315 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-03-30 21:26:17.334 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-03-30 21:26:17.385 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-03-30 21:26:17.530 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getByIdUsingGET_1
+2020-03-30 21:26:17.549 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: handleUsingGET_1
+2020-03-30 21:26:17.551 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: handleUsingGET_2
+2020-03-30 21:26:17.571 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_1
+2020-03-30 21:26:17.576 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateByIdUsingPUT_1
+2020-03-30 21:26:17.587 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: removeByIdUsingDELETE_1
+2020-03-30 21:26:17.593 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_2
+2020-03-30 21:26:17.596 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateCourseInfoByIdUsingPUT_1
+2020-03-30 21:26:17.627 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2020-03-30 21:26:17.659 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2020-03-30 21:26:17.663 [main] INFO  cn.calfgz.college.EduApplication - Started EduApplication in 4.189 seconds (JVM running for 4.924)
+2020-03-30 21:26:42.628 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-30 21:26:42.629 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-30 21:26:42.635 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2020-03-30 21:43:51.272 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-30 21:43:51.275 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-03-30 21:43:51.279 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-03-30 21:43:56.086 [main] INFO  cn.calfgz.college.EduApplication - Starting EduApplication on calfgz.local with PID 6821 (/Users/apple/github/college-parent/service/service-edu/target/classes started by apple in /Users/apple/github/college-parent)
+2020-03-30 21:43:56.088 [main] INFO  cn.calfgz.college.EduApplication - The following profiles are active: dev
+2020-03-30 21:43:57.477 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2020-03-30 21:43:57.484 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2020-03-30 21:43:57.485 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-30 21:43:57.485 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-30 21:43:57.563 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-30 21:43:57.563 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1437 ms
+2020-03-30 21:43:57.709 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-03-30 21:43:57.804 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-03-30 21:43:58.653 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-03-30 21:43:58.705 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-03-30 21:43:58.786 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-30 21:43:58.939 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-03-30 21:43:58.950 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-03-30 21:43:58.992 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-03-30 21:43:59.110 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getByIdUsingGET_1
+2020-03-30 21:43:59.127 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: handleUsingGET_1
+2020-03-30 21:43:59.129 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: handleUsingGET_2
+2020-03-30 21:43:59.151 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_1
+2020-03-30 21:43:59.156 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateByIdUsingPUT_1
+2020-03-30 21:43:59.168 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: removeByIdUsingDELETE_1
+2020-03-30 21:43:59.176 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_2
+2020-03-30 21:43:59.179 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateCourseInfoByIdUsingPUT_1
+2020-03-30 21:43:59.204 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2020-03-30 21:43:59.233 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2020-03-30 21:43:59.236 [main] INFO  cn.calfgz.college.EduApplication - Started EduApplication in 3.626 seconds (JVM running for 4.342)
+2020-03-30 21:45:06.978 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-30 21:45:06.979 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-30 21:45:06.984 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-03-30 22:00:17.090 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-30 22:00:17.093 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-03-30 22:00:17.097 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-03-30 22:11:43.253 [main] INFO  cn.calfgz.college.EduApplication - Starting EduApplication on calfgz.local with PID 6890 (/Users/apple/github/college-parent/service/service-edu/target/classes started by apple in /Users/apple/github/college-parent)
+2020-03-30 22:11:43.257 [main] INFO  cn.calfgz.college.EduApplication - The following profiles are active: dev
+2020-03-30 22:11:44.910 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2020-03-30 22:11:44.922 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2020-03-30 22:11:44.923 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-30 22:11:44.923 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-30 22:11:45.026 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-30 22:11:45.027 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1697 ms
+2020-03-30 22:11:45.173 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-03-30 22:11:45.311 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-03-30 22:11:46.227 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-03-30 22:11:46.285 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-03-30 22:11:46.376 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-30 22:11:46.538 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-03-30 22:11:46.556 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-03-30 22:11:46.604 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-03-30 22:11:46.742 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getByIdUsingGET_1
+2020-03-30 22:11:46.763 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: handleUsingGET_1
+2020-03-30 22:11:46.765 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: handleUsingGET_2
+2020-03-30 22:11:46.788 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_1
+2020-03-30 22:11:46.793 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateByIdUsingPUT_1
+2020-03-30 22:11:46.804 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: removeByIdUsingDELETE_1
+2020-03-30 22:11:46.809 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_2
+2020-03-30 22:11:46.812 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateCourseInfoByIdUsingPUT_1
+2020-03-30 22:11:46.841 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2020-03-30 22:11:46.871 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2020-03-30 22:11:46.875 [main] INFO  cn.calfgz.college.EduApplication - Started EduApplication in 4.153 seconds (JVM running for 4.889)
+2020-03-30 22:12:01.352 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-30 22:12:01.353 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-30 22:12:01.363 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2020-03-30 22:15:46.502 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-30 22:15:46.505 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-03-30 22:15:46.509 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-03-30 22:15:52.358 [main] INFO  cn.calfgz.college.EduApplication - Starting EduApplication on calfgz.local with PID 6904 (/Users/apple/github/college-parent/service/service-edu/target/classes started by apple in /Users/apple/github/college-parent)
+2020-03-30 22:15:52.360 [main] INFO  cn.calfgz.college.EduApplication - The following profiles are active: dev
+2020-03-30 22:15:53.567 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2020-03-30 22:15:53.575 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2020-03-30 22:15:53.576 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-30 22:15:53.576 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-30 22:15:53.657 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-30 22:15:53.657 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1263 ms
+2020-03-30 22:15:53.783 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-03-30 22:15:53.892 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-03-30 22:15:54.764 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-03-30 22:15:54.819 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-03-30 22:15:54.904 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-30 22:15:55.079 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-03-30 22:15:55.092 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-03-30 22:15:55.143 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-03-30 22:15:55.267 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getByIdUsingGET_1
+2020-03-30 22:15:55.292 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: handleUsingGET_1
+2020-03-30 22:15:55.294 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: handleUsingGET_2
+2020-03-30 22:15:55.315 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_1
+2020-03-30 22:15:55.320 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateByIdUsingPUT_1
+2020-03-30 22:15:55.331 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: removeByIdUsingDELETE_1
+2020-03-30 22:15:55.336 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_2
+2020-03-30 22:15:55.339 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateCourseInfoByIdUsingPUT_1
+2020-03-30 22:15:55.365 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2020-03-30 22:15:55.394 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2020-03-30 22:15:55.397 [main] INFO  cn.calfgz.college.EduApplication - Started EduApplication in 3.523 seconds (JVM running for 4.227)
+2020-03-30 22:15:59.655 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-30 22:15:59.656 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-30 22:15:59.661 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-03-30 22:35:26.824 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-30 22:35:26.827 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-03-30 22:35:26.831 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-03-30 22:35:32.563 [main] INFO  cn.calfgz.college.EduApplication - Starting EduApplication on calfgz.local with PID 7004 (/Users/apple/github/college-parent/service/service-edu/target/classes started by apple in /Users/apple/github/college-parent)
+2020-03-30 22:35:32.566 [main] INFO  cn.calfgz.college.EduApplication - The following profiles are active: dev
+2020-03-30 22:35:34.166 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2020-03-30 22:35:34.178 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2020-03-30 22:35:34.179 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-30 22:35:34.179 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-30 22:35:34.278 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-30 22:35:34.278 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1668 ms
+2020-03-30 22:35:34.461 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-03-30 22:35:34.575 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-03-30 22:35:35.509 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-03-30 22:35:35.564 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-03-30 22:35:35.683 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-30 22:35:35.849 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-03-30 22:35:35.860 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-03-30 22:35:35.936 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-03-30 22:35:36.069 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getByIdUsingGET_1
+2020-03-30 22:35:36.113 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: handleUsingGET_1
+2020-03-30 22:35:36.116 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: handleUsingGET_2
+2020-03-30 22:35:36.137 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_1
+2020-03-30 22:35:36.142 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateByIdUsingPUT_1
+2020-03-30 22:35:36.153 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: removeByIdUsingDELETE_1
+2020-03-30 22:35:36.158 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_2
+2020-03-30 22:35:36.161 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateCourseInfoByIdUsingPUT_1
+2020-03-30 22:35:36.188 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2020-03-30 22:35:36.221 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2020-03-30 22:35:36.224 [main] INFO  cn.calfgz.college.EduApplication - Started EduApplication in 4.238 seconds (JVM running for 4.942)
+2020-03-30 22:35:52.986 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-30 22:35:52.987 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-30 22:35:52.993 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2020-03-30 22:40:39.024 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-30 22:40:39.027 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-03-30 22:40:39.030 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-03-30 22:47:57.082 [main] INFO  cn.calfgz.college.EduApplication - Starting EduApplication on calfgz.local with PID 7022 (/Users/apple/github/college-parent/service/service-edu/target/classes started by apple in /Users/apple/github/college-parent)
+2020-03-30 22:47:57.085 [main] INFO  cn.calfgz.college.EduApplication - The following profiles are active: dev
+2020-03-30 22:47:58.309 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2020-03-30 22:47:58.317 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2020-03-30 22:47:58.318 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-30 22:47:58.318 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-30 22:47:58.400 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-30 22:47:58.400 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1282 ms
+2020-03-30 22:47:58.540 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-03-30 22:47:58.628 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-03-30 22:47:59.463 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-03-30 22:47:59.516 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-03-30 22:47:59.596 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-30 22:47:59.747 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-03-30 22:47:59.758 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-03-30 22:47:59.803 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-03-30 22:47:59.930 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getByIdUsingGET_1
+2020-03-30 22:47:59.958 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: removeByIdUsingDELETE_1
+2020-03-30 22:47:59.979 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: handleUsingGET_1
+2020-03-30 22:47:59.982 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: handleUsingGET_2
+2020-03-30 22:48:00.003 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_1
+2020-03-30 22:48:00.009 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateByIdUsingPUT_1
+2020-03-30 22:48:00.021 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: removeByIdUsingDELETE_2
+2020-03-30 22:48:00.026 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: saveUsingPOST_2
+2020-03-30 22:48:00.030 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateCourseInfoByIdUsingPUT_1
+2020-03-30 22:48:00.057 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2020-03-30 22:48:00.090 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2020-03-30 22:48:00.094 [main] INFO  cn.calfgz.college.EduApplication - Started EduApplication in 3.47 seconds (JVM running for 4.156)
+2020-03-30 22:48:04.407 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-30 22:48:04.408 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-30 22:48:04.414 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2020-03-30 22:48:56.530 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-30 22:48:56.534 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-03-30 22:48:56.537 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed

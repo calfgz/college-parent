@@ -1,0 +1,81 @@
+server:
+  port: 8222
+
+spring:
+  profiles:
+    active: dev
+
+  application:
+    name: api-gateway
+
+  cloud:
+    nacos:
+      discovery:
+        # nacos服务地址
+        server-addr: 127.0.0.1:8848
+
+    gateway:
+      discovery:
+        locator:
+          #使用服务发现路由
+          enabled: true
+      routes:
+        - id: service-edu
+          uri: lb://service-edu
+          predicates:
+            - Path=/edu/** # 路径匹配
+            - Path=/api/edu/**
+        - id: service-cms
+          uri: lb://service-cms
+          predicates:
+            - Path=/cms/**
+            - Path=/api/cms/**
+        - id: service-msm
+          uri: lb://service-msm
+          predicates:
+            - Path=/msm/**
+            - Path=/api/msm/**
+        - id: service-order
+          uri: lb://service-order
+          predicates:
+            - Path=/order/**
+            - Path=/api/order/**
+        - id: service-oss
+          uri: lb://service-oss
+          predicates:
+            - Path=/oss/**
+            - Path=/api/oss/**
+        - id: service-statistics
+          uri: lb://service-statistics
+          predicates:
+            - Path=/statistics/**
+            - Path=/api/statistics/**
+        - id: service-ucenter
+          uri: lb://service-ucenter
+          predicates:
+            - Path=/ucenter/**
+            - Path=/api/ucenter/**
+        - id: service-vod
+          uri: lb://service-vod
+          predicates:
+            - Path=/vod/**
+            - Path=/api/vod/**
+
+  #返回json的全局时间格式
+  jackson:
+    date-format: "yyyy-MM-dd HH:mm:ss"
+    time-zone: "GMT+8"
+
+#开启熔断机制
+feign:
+  hystrix:
+    enabled: true
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            # 设置hystrix超时时间，默认1000ms
+            timeoutInMilliseconds: 6000

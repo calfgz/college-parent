@@ -1,0 +1,9 @@
+2020-03-30 17:19:35.113 [http-nio-8001-exec-1] ERROR c.c.c.common.base.handler.GlobalExceptionHandler - GlobalException HttpRequestMethodNotSupportedException, uri:/edu/course/save-course-info, method:GET, params:{}, error:Request method 'GET' not supported
+2020-03-30 17:20:18.548 [http-nio-8001-exec-6] ERROR c.c.c.common.base.handler.GlobalExceptionHandler - GlobalException, uri:/edu/course/save-course-info, method:POST, params:{}, error:
+### Error updating database.  Cause: java.sql.SQLException: Field 'gmt_create' doesn't have a default value
+### The error may exist in cn/calfgz/college/edu/mapper/CourseMapper.java (best guess)
+### The error may involve cn.calfgz.college.edu.mapper.CourseMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO edu_course  ( id, teacher_id, subject_id, subject_parent_id, title, price, lesson_num, cover,    status )  VALUES  ( ?, ?, ?, ?, ?, ?, ?, ?,    ? )
+### Cause: java.sql.SQLException: Field 'gmt_create' doesn't have a default value
+; Field 'gmt_create' doesn't have a default value; nested exception is java.sql.SQLException: Field 'gmt_create' doesn't have a default value

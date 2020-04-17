@@ -1,0 +1,56 @@
+server:
+  port: 8005
+
+spring:
+  profiles:
+    active: dev
+
+  application:
+    name: service-msm
+
+  cloud:
+    nacos:
+      discovery:
+        # nacos服务地址
+        server-addr: 127.0.0.1:8848
+
+  #返回json的全局时间格式
+  jackson:
+    date-format: "yyyy-MM-dd HH:mm:ss"
+    time-zone: "GMT+8"
+
+  redis:
+    host: localhost
+    port: 6379
+    database: 0
+    timeout: 1800000
+    lettuce:
+      pool:
+        max-active: 20
+        max-wait: 1
+        #最大阻塞等待时间(负数表示没限制)
+        max-idle: 5
+        min-idle: 0
+
+#阿里云 vod
+aliyun:
+  sms:
+    file:
+      keyid: "888888"
+      keysecret: "88888888888"
+      template_code: "283388"
+      sign_name: "在线教育系统"
+
+#开启熔断机制
+feign:
+  hystrix:
+    enabled: true
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            # 设置hystrix超时时间，默认1000ms
+            timeoutInMilliseconds: 6000
